@@ -243,6 +243,9 @@ nav img{
 .section-9 .section-9-cards .card span{
     font-weight: 500;
 }
+.section-9 .section-9-cards .card{
+    width: 20%;
+}
 
 .section-9 .section-9-cards .card p{
     margin-top: 5px;
@@ -257,8 +260,8 @@ footer{
 footer .footer-section{
     display: flex;
     justify-content: space-between;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 30px;
 }
 
@@ -294,7 +297,7 @@ footer .footer-section .right-section p{
 
 footer .end-section{
     color: #ffffff;
-    padding-left: 60px;
+    padding-left: 100px;
     margin-top: 170px;
 }
 
@@ -403,9 +406,12 @@ footer .end-section{
         font-weight: 500;
     }
 
+    .section-9 .section-9-cards{
+        padding-right: 100px;
+    }
 
     .section-9 .section-9-cards .card{
-        width: max-content;
+        width: auto;
     }
 
     .footer-section{
@@ -438,4 +444,16 @@ footer .end-section{
     .section-7 .section-7-cards .section-7-card .card .card-bottom{
         font-size: 12px;
     }
+}
+
+@media screen and (max-width:390px) {
+
+    .section-9 .section-9-cards{
+        justify-content: center;
+    }
+
+    .section-9 .section-9-cards .card{
+        width: auto;
+    }
+
 }
